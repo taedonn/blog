@@ -82,7 +82,6 @@ order: 4
 - 월 평균 300~400명 방문
 - `MySQL(Prisma)` 데이터베이스 구조 설계
 - `jsDelivr`와 `NPM`으로 웹 폰트 배포
-- 언어, 라이센스 허용 범위, 폰트 타입 등에 따라 목록 `sorting` 기능 구현
 - `next-auth`로 `OAuth` 로그인 기능 구현
 - `useInfiniteQuery`로 무한 스크롤 기능 구현
 
