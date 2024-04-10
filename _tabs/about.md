@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<img width="50%" align="left" src="/assets/img/about_img_1.jpg" alt="about_img_1">
+<img width="50%" align="left" src="/assets/img/about_img_1.png" alt="about_img_1">
 
 ### taedonn (이태호)
 
