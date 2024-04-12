@@ -99,49 +99,55 @@ tail_includes:
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7819549426971576" crossorigin="anonymous"></script>
 
   <!-- 블로그 PC 상단 배너 -->
-  <div class="adsense_banner" style="width: 100%; display: flex; justify-content: center;"></div>
+  <div id="adsense_top_banner" style="width: 100%; display: flex; justify-content: center;"></div>
+  <script>
+    const width = window.innerWidth;
+    const ins0 = document.createElement("ins");
+    const banner0 = document.getElementById("adsense_top_banner");
+
+    if (width < 850) {
+      ins0.className = 'adsbygoogle';
+      ins0.setAttribute('style', 'width: 100%; display: block; margin-top: 1rem;');
+      ins0.setAttribute('data-ad-client', 'ca-pub-7819549426971576');
+      ins0.setAttribute('data-ad-slot', '1570491486');
+      ins0.setAttribute('data-ad-format', 'auto');
+      ins0.setAttribute('data-full-width-responsive', 'true');
+    } else {
+      ins0.className = 'adsbygoogle';
+      ins0.setAttribute('style', 'display: inline-block; width: 728px; height: 90px; margin-top: 1rem;');
+      ins0.setAttribute('data-ad-client', 'ca-pub-7819549426971576');
+      ins0.setAttribute('data-ad-slot', '9627771449');
+    }
+    banner0.appendChild(ins0);
+  </script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
   <div class="content">
     {{ content }}
   </div>
 
   <!-- 블로그 PC 하단 배너 -->
-  <div class="adsense_banner" style="width: 100%; display: flex; justify-content: center;"></div>
-  
+  <div id="adsense_bottom_banner" style="width: 100%; display: flex; justify-content: center;"></div>
   <script>
-    const width = window.innerWidth;
-    const ins0 = document.createElement("ins");
     const ins1 = document.createElement("ins");
-    const banner = document.getElementsByClassName("adsense_banner");
+    const banner1 = document.getElementById("adsense_bottom_banner");
 
     if (width < 850) {
-      ins0.className = 'adsbygoogle';
-      ins0.setAttribute('style', 'display: block; margin-top: 1rem;');
-      ins0.setAttribute('data-ad-client', 'ca-pub-7819549426971576');
-      ins0.setAttribute('data-ad-slot', '1570491486');
-      ins0.setAttribute('data-ad-format', 'auto');
-      ins0.setAttribute('data-full-width-responsive', 'true');
-
       ins1.className = 'adsbygoogle';
-      ins1.setAttribute('style', 'display: block; margin-top: 1rem;');
+      ins1.setAttribute('style', 'width: 100%; display: block; margin-top: 1rem;');
       ins1.setAttribute('data-ad-client', 'ca-pub-7819549426971576');
       ins1.setAttribute('data-ad-slot', '9257409816');
       ins1.setAttribute('data-ad-format', 'auto');
       ins1.setAttribute('data-full-width-responsive', 'true');
     } else {
-      ins0.className = 'adsbygoogle';
-      ins0.setAttribute('style', 'display: inline-block; width: 728px; height: 90px; margin-top: 1rem;');
-      ins0.setAttribute('data-ad-client', 'ca-pub-7819549426971576');
-      ins0.setAttribute('data-ad-slot', '9627771449');
-
       ins1.className = 'adsbygoogle';
       ins1.setAttribute('style', 'display: inline-block; width: 728px; height: 90px; margin-top: 1rem;');
       ins1.setAttribute('data-ad-client', 'ca-pub-7819549426971576');
       ins1.setAttribute('data-ad-slot', '6230757383');
     }
-
-    banner[0].appendChild(ins0);
-    banner[1].appendChild(ins1);
+    banner1.appendChild(ins1);
   </script>
   <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
