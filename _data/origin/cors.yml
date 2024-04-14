@@ -61,5 +61,4 @@ mathjax:
 # Google AdSense
 
 adsbygoogle:
-  url: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  url: https://www.googleadservices.com
+  url: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7819549426971576
