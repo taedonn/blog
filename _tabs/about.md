@@ -73,7 +73,7 @@ order: 4
 
 #### 폰트 아카이브
 
-<a href="https://fonts.taedonn.com" target="_blank">웹사이트</a> · <a href="ttps://github.com/taedonn/fonts-archive" target="_blank">깃허브</a> / 23.05 ~ 24.01 (9개월)
+<a href="https://fonts.taedonn.com" target="_blank">웹사이트</a> · <a href="https://github.com/taedonn/fonts-archive" target="_blank">깃허브</a> / 23.05 ~ 24.01 (9개월)
 
 -----
 
@@ -87,7 +87,7 @@ order: 4
 
 #### 파티원구함
 
-<a href="https://partywon.taedonn.com" target="_blank">웹사이트</a> · <a href="ttps://github.com/taedonn/partywonguham" target="_blank">깃허브</a> / 23.12 ~ 24.04 (5개월)
+<a href="https://partywon.taedonn.com" target="_blank">웹사이트</a> · <a href="https://github.com/taedonn/partywonguham" target="_blank">깃허브</a> / 23.12 ~ 24.04 (5개월)
 
 -----
 
