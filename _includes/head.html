@@ -114,4 +114,16 @@
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7819549426971576" crossorigin="anonymous"></script>
+
+  <!-- HITS 뱃지 -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      let profile = document.getElementsByClassName("profile-wrapper")[0];
+      let badge = document.createElement("img");
+      badge.setAttribute("style", "display: none");
+      badge.setAttribute("src", "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftaedonn%2Fblog&count_bg=%2397989C&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%88%98&edge_flat=false");
+      badge.setAttribute("alt", "HITS 뱃지");
+      profile.appendChild(badge);
+    });
+  </script>
 </head>
