@@ -107,3 +107,21 @@ order: 4
 *Bachelor's degree of Industrial Design* / 13.09 ~ 19.09
 
 &nbsp;
+
+### Certificates
+
+#### GTQ 그래픽 Master
+
+자격종류 : 공인민간자격
+
+취득조건 : GTQ, GTQi, GTQid 모두 취득
+
+취득일 : 21.10.15
+
+#### MOS Master
+
+자격종류 : 국제인증자격
+
+취득조건 : Word(Expert), Excel(Expert), Powerpoint(Core), Access(Core) 모두 취득
+
+취득일 : 21.08.05
